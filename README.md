@@ -23,11 +23,11 @@ Junto con este archivo encontraras tres archivos más, estos son `Web.md`, `Mobi
 
 Tu información de contacto deberá ser insertada debajo del último contacto existente, y deberás encerrar el objeto de JavaScript con un fence, o tres ‘```’ para que sea reconocido como código y tenga una mejor presentación. Los requests que no cumplan con este formato no serán aceptados.
 
-###Experiencia
-La experiencia previa, nombre de la compañía o nombre del título. Si no tienes experiencia deberás dejar el arreglo vacio (`experiencia: []`).
-
 ###Heading
 El heading estará compuesto por tu nombre completo, seguido de dos puntos (:) y la especialización, es decir, `{nombre} : {especializacion}`. Este heading deberá ser de grado 3, es decir, precedido por `###`.
+
+###Experiencia
+La experiencia previa, nombre de la compañía o nombre del título. Si no tienes experiencia deberás dejar el arreglo vacio (`experiencia: []`).
 
 ###Stack
 Las tecnologías con las que te sientes cómodo trabajando, pueden ser lenguajes de programación, frameworks o herramientas en general. Este arreglo deberá tener un máximo de 5 elementos.
