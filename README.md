@@ -3,7 +3,7 @@ Un listado de desarrolladores Web (y de otras áreas) costarricenses quienes tie
 
 El formato que deberemos seguir será el siguiente:
 
-```
+```javascript
 {
   experiencia: ['web developer', 'front end', 'engineer'],
   stack: ['html5', 'css3', 'JS', 'Java', 'C#'],
