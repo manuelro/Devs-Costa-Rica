@@ -3,6 +3,7 @@ Un listado de desarrolladores Web (y de otras áreas) costarricenses quienes tie
 
 El formato que deberemos seguir será el siguiente:
 
+###Manuel Ro: Front End Development
 ```javascript
 {
   experiencia: ['web developer', 'front end', 'engineer'],
@@ -24,6 +25,9 @@ Tu información de contacto deberá ser insertada debajo del último contacto ex
 
 ###Experiencia
 La experiencia previa, nombre de la compañía o nombre del título. Si no tienes experiencia deberás dejar el arreglo vacio (`experiencia: []`).
+
+###Heading
+El heading estará compuesto por tu nombre completo, seguido de dos puntos (:) y la especialización, es decir, `{nombre} : {especializacion}`. Este heading deberá ser de grado 3, es decir, precedido por `###`.
 
 ###Stack
 Las tecnologías con las que te sientes cómodo trabajando, pueden ser lenguajes de programación, frameworks o herramientas en general. Este arreglo deberá tener un máximo de 5 elementos.
@@ -49,3 +53,8 @@ Un sitio Web, blog o perfil de alguna red social donde la persona interesada pue
 ###Proyectos
 Un arreglo con los últimos 5 proyectos que has realizado. Asegurate de agregar solo los mejores. Si no tienes proyectos puedes dejarlo vacío.
 
+##Solicitando ser agregado a la lista
+Una vez hayas completado los datos, puedes hacer un pull request. 
+
+###El formato del commit y su mensaje
+El nombre del commit deberá tener el siguiente formato: `Add { nombre }`, deberás reemplazar `{ nombre }` con tu nombre completo.
