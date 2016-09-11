@@ -1,0 +1,103 @@
+{
+	"Devs-Costa-Rica":{
+		"El formato que debes seguir, colocalo en la sección que corresponda (Web, Mobile, Desktop)":{
+			"id":"Coloca tu id consecutivo al anterior valor del tipo entero",
+			"nombre":"Nombre y Apellido",
+			"contacto":[
+				{
+					"telefono":"+506 8888 8888",
+					"email":"tucorreo@dominio.com",
+					"disponibilidad":[
+						{
+							"freelance":true,
+							"part-time":false,
+							"full-time":false
+						}
+					]
+				}
+			],
+			"website":"https://www.sitioweb.com",
+			"proyectos":[
+				"http://un-proyecto.com",
+				"http://otro-proyecto.com"
+			],
+			"web":{
+				"experiencia":[
+					"Front-End",
+					"Back-End"
+				],
+				"Stack":[
+					"html5",
+					"css3",
+					"Javascript",
+					"jQuery",
+					"SASS",
+					"Gulp",
+					"WordPress",
+					"Magento",
+					"Laravel",
+					"PHP",
+					"JSON",
+					"Git",
+					"Git-Hub"
+				],
+				"idiomas":[
+					"en",
+					"es"
+				]
+			}
+		}
+	},
+	"web":{
+		"id":1,
+		"nombre":"Ronny Freites",
+		"contacto":[
+			{
+				"telefono":"+506 8441 8075",
+				"email":"ronnyfreites@gmail.com",
+				"disponibilidad":[
+					{
+						"freelance":true,
+						"part-time":false,	
+						"full-time":false
+					}
+				]
+			}
+		],
+		"website":"https://www.linkedin.com/in/ronny-freites-a511217b",
+		"proyectos":[
+			"http://un-proyecto.com",
+			"http://otro-proyecto.com"
+		],
+		"web":{
+			"experiencia":[
+				"Front-End"
+			],
+			"Stack":[
+				"html5",
+				"css3",
+				"Javascript",
+				"jQuery",
+				"SASS",
+				"Gulp",
+				"WordPress",
+				"Magento",
+				"Laravel",
+				"PHP",
+				"JSON",
+				"Git",
+				"Git-Hub"
+			],
+			"idiomas":[
+				"en",
+				"es"
+			]
+		}
+	},
+	"mobile":{
+
+	},
+	"desktop":{
+
+	}
+}

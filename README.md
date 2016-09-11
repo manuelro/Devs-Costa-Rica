@@ -6,15 +6,64 @@ El formato que deberemos seguir será el siguiente:
 ###Manuel Ro: Front End Development
 ```javascript
 {
-  experiencia: ['web developer', 'front end', 'engineer'],
-  stack: ['html5', 'css3', 'JS', 'Java', 'C#'],
-  idiomas: ['en', 'es'],
-  nombre: 'Manuel Ro',
-  telefono: '+506 8888 8888',
-  email: 'some@email.com',
-  disponibilidad: true,
-  website: 'http://mywebsite.com',
-  proyectos: ['http://un-proyecto.com', 'http://otro-proyecto.com']
+    "Devs-Costa-Rica":{
+        "El formato que debes seguir, colocalo en la sección que corresponda (Web, Mobile, Desktop)":{
+            "id":"Coloca tu id consecutivo al anterior valor del tipo entero",
+            "nombre":"Nombre y Apellido",
+            "contacto":[
+                {
+                    "telefono":"+506 8888 8888",
+                    "email":"tucorreo@dominio.com",
+                    "disponibilidad":[
+                        {
+                            "freelance":true,
+                            "part-time":false,
+                            "full-time":false
+                        }
+                    ]
+                }
+            ],
+            "website":"https://www.sitioweb.com",
+            "proyectos":[
+                "http://un-proyecto.com",
+                "http://otro-proyecto.com"
+            ],
+            "web":{
+                "experiencia":[
+                    "Front-End",
+                    "Back-End"
+                ],
+                "Stack":[
+                    "html5",
+                    "css3",
+                    "Javascript",
+                    "jQuery",
+                    "SASS",
+                    "Gulp",
+                    "WordPress",
+                    "Magento",
+                    "Laravel",
+                    "PHP",
+                    "JSON",
+                    "Git",
+                    "Git-Hub"
+                ],
+                "idiomas":[
+                    "en",
+                    "es"
+                ]
+            }
+        }
+    },
+    "web":{
+        
+    },
+    "mobile":{
+
+    },
+    "desktop":{
+
+    }
 }
 ```
 
